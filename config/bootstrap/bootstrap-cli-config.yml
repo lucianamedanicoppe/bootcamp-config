@@ -49,7 +49,7 @@ bootstrap:
     #   supports empty list [] for no additional variants
         rawdb-additional-variants:
       # provide more than one rawdb per ns-nodes
-      # atm (v1) hardcoded is one additional rawdb
+      # atm (v1) hardcoded is one additional rawdb new comment
             - state
 
     # Mapping between IDP (Azure Active Directory) groups and CDF groups.
