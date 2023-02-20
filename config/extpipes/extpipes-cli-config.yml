@@ -1,7 +1,7 @@
 ---
 # follows the same parameter structure as the DB extractor configuration
 cognite: # kwargs to pass to the CogniteClient, Environment variable format: ${ENVIRONMENT_VARIABLE}
-  # host: https://${EXTPIPES_CDF_CLUSTER}.cognitedata.com/
+  # host: https://${EXTPIPES_CDF_CLUSTER}.cognitedata.com/ comment
     host: ${EXTPIPES_CDF_HOST}
     project: ${EXTPIPES_CDF_PROJECT}
   #
